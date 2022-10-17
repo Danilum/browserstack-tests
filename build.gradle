@@ -61,3 +61,9 @@ task android(type: Test) {
         includeTags 'android'
     }
 }
+//
+//task tests(type: Test){
+//    useJunitPlatform{
+//      includeTags 'Positive Tests'
+//    }
+//}

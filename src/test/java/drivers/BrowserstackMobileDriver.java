@@ -25,12 +25,12 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
 
         // Specify device and os_version for testing
         mutableCapabilities.setCapability("device", "Google Pixel 3");
-        mutableCapabilities.setCapability("os_version", "9.0");
+        mutableCapabilities.setCapability("os_version", "12.0");
 
         // Set other BrowserStack capabilities
         mutableCapabilities.setCapability("project", "Innopolis Club Android Tests");
-        mutableCapabilities.setCapability("build", "browserstack-build-1");
-        mutableCapabilities.setCapability("name", "selenide android test");
+        mutableCapabilities.setCapability("build", "browserstack-build-tests");
+        mutableCapabilities.setCapability("name", "Selenide Android Test");
         return new RemoteWebDriver(getBrowserstackUrl(), mutableCapabilities);
     }
 

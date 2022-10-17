@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "Innopolis Club Android",
+    "environment": "Dev",
+    "comment": "regression tests",
+    "reportLink": "http://127.0.0.1:60699/index.html#",
+    "language": "en",
+    "allureFolder": "build/reports/allure-report/allureReport/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5442215700:AAE0NmD8JvPQd2nSP7QKB7TJ3XOTs2kP81o",
+    "chat": "-1001860418208",
+    "replyTo": ""
+  }
+}
